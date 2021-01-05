@@ -1,6 +1,7 @@
 import os
 from bs4 import BeautifulSoup
 
+// Automation - WIP
 printMsg1()
 
 current_dir=r'C:/Apache24/htdocs/example'
