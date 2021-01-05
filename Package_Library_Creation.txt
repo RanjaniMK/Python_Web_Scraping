@@ -1,0 +1,20 @@
+Procedure for creating Package/Library:
+
+1. Find 'site package' folder in python installation folder. 
+   On my system, the path to the folder is:
+   C:\Users\Ranjani\AppData\Local\Programs\Python\Python39\Lib\site-packages
+
+   The following could be of help:
+   import sys
+   print(sys.path)
+
+2.Create a folder here by name: 'automation' (Library/Package)
+
+3.Create _init_.py file inside automation folder.
+
+4.Create a module  automate.py inside automation folder.
+
+5. Write all the required functions for this project inside automate.py
+
+6. Later on create a python file with a name of your choice, and from inside this file you could call functions from    automation library, i.e. you can import modules from this automation library:
+ Example: from automation import automate
